@@ -25,6 +25,11 @@ body {
   text-align: center;
 }
 
+.sm_icons {
+  filter: invert(43%) sepia(97%) saturate(7%) hue-rotate(85deg) brightness(98%)
+    contrast(93%);
+}
+
 .fa {
   padding: 20px;
   text-align: center;
