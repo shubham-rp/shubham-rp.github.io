@@ -29,24 +29,3 @@ body {
   filter: invert(43%) sepia(97%) saturate(7%) hue-rotate(85deg) brightness(98%)
     contrast(93%);
 }
-
-.fa {
-  padding: 20px;
-  text-align: center;
-  margin: 5px 2px;
-  font-size: 30px;
-  width: 50px;
-}
-
-.fa-twitter {
-  background: #55acee;
-  color: white;
-}
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa:hover {
-  opacity: 0.9;
-}
