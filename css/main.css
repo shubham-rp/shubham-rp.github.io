@@ -13,7 +13,7 @@ body {
   width: 75%;
   margin: 16px;
   padding: 16px;
-  height: 128px;
+  height: auto;
   border-radius: 8px;
   background-color: honeydew;
   place-self: center;
@@ -22,10 +22,32 @@ body {
 .heading {
   font-size: 32px;
   font-weight: 500;
+  color: #808080;
   text-align: center;
+  text-transform: uppercase;
+  padding: 8px;
+}
+
+.intro-description {
+  padding: 12px;
+  text-align: justify;
 }
 
 .sm_icons {
+  margin: 4px;
+  text-align: center;
+  padding: 4px;
   filter: invert(43%) sepia(97%) saturate(7%) hue-rotate(85deg) brightness(98%)
     contrast(93%);
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.section-heading {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #808080;
 }
